@@ -104,7 +104,7 @@ body
 .window
 {
   position:absolute;
-  background-color: purple;
+  background-color: gray;
   height: 35px;
   width:65px;
   left:13px;
@@ -113,7 +113,7 @@ body
   border:2px solid black;
 }
 
-.tyre1,.tyre2,.tyre3,.tyre4
+.tire1,.tire2,.tire3,.tire4
 {
   position:absolute;
   height:55px;
@@ -131,24 +131,24 @@ body
   }
 }
 
-.tyre1{
+.tire1{
   left:5px;
 }
 
-.tyre2{
+.tire2{
   left:70px;
 }
 
-.tyre3
+.tire3
 {
   left:180px;
 }
 
-.tyre4{
+.tire4{
   left:310px;
 }
 
-.tyre1::after,.tyre2::after,.tyre3::after,.tyre4::after
+.tire1::after,.tire2::after,.tire3::after,.tire4::after
 {
  content: "";
  position:absolute;
@@ -204,7 +204,7 @@ body
   position:absolute;
   width: 15px;
   height: 100px;
-  background: rgb(255, 92, 119);
+  background: rgb(234, 244, 101);
   transform: perspective(8px) rotateX(7deg);
 	rotate: 270deg;
   margin: 50px;
